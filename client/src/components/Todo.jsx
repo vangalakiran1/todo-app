@@ -7,7 +7,7 @@ import CapitalizeHeading from "../utils/CapitalizeHeading.js";
 import { GetAllTodoData } from "../context";
 import Modal from "../components/Modal";
 
-const port = "https://todo-app-two-sigma-72.vercel.app/";
+const port = "https://todo-app-two-sigma-72.vercel.app";
 // const port = "http://localhost:5000";
 
 const colorList = {

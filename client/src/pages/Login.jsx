@@ -3,7 +3,7 @@ import Cookies from "js-cookie";
 import CapitalizeHeading from "../utils/CapitalizeHeading";
 import { useNavigate, NavLink, Navigate } from "react-router-dom";
 
-const port = "https://todo-app-two-sigma-72.vercel.app/";
+const port = "https://todo-app-two-sigma-72.vercel.app";
 // const port = "http://localhost:5000";
 
 function Input({ name, placeholder, type, onChange }) {
