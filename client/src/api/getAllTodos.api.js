@@ -1,5 +1,6 @@
 import Cookies from "js-cookie";
 
+// const port = "https://todo-app-two-sigma-72.vercel.app/";
 const getAllTodosApi = async () => {
   const onSuccess = (data) => {
     return console.log(data);
@@ -14,7 +15,10 @@ const getAllTodosApi = async () => {
         "Content-Type": "application/json",
       },
     };
-    const response = await fetch("http://localhost:5000/api/todos", options);
+    const response = await fetch(
+      "https://todo-app-two-sigma-72.vercel.app/api/todos",
+      options
+    );
     if (response.ok === true) {
       const data = await response.json();
       onSuccess(data.todos);
