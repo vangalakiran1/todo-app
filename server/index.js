@@ -6,7 +6,7 @@ const router = require("./routers/todo.route.js");
 const userRouter = require("./routers/user.router.js");
 
 app.use(express.json());
-app.use(cors());
+app.use(cors({ origin: "*", credentials: true }));
 
 const port = process.env.PORT || 5001;
 
